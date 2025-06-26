@@ -8,3 +8,8 @@
 #define LOTTIE_CACHE_SUPPORT 1
 
 #define LOTTIE_THREAD_SUPPORT 1
+
+#ifdef _WIN32
+#include <stdlib.h>
+#define realpath(x, y) _fullpath((y), (x), _MAX_PATH)
+#endif

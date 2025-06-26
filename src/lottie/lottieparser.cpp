@@ -58,6 +58,7 @@
 #include "lottiemodel.h"
 #include "rapidjson/document.h"
 #include "zip/zip.h"
+#include <stdlib.h> // realpath()
 
 RAPIDJSON_DIAG_PUSH
 #ifdef __GNUC__

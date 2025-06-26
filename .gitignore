@@ -12,3 +12,10 @@ tmp
 .vs
 **/*.DS_Store
 builddir_wasm
+
+bin/
+bin-int/
+obj/
+*.vcxproj
+*.vcxproj.filters
+vs2019/Debug
